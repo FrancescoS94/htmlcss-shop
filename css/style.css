@@ -1,0 +1,47 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px 350px 10px;
+}
+
+.gray {
+    background-color: #F5F5F5;
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 300px;
+}
+
+.green {
+    background-color: green;
+    width: 35px;
+    height: 20px;
+    position: absolute;
+    text-align: center;
+    line-height: 20px;
+    right: 0px;
+}
+
+.red {
+    background-color: red;
+    width: 28px;
+    height: 20px;
+    position: absolute;
+    text-align: center;
+    line-height: 20px;
+    right: 0px;
+}
+
+img {
+    height: 250px;
+    width: 210px;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
