@@ -7,7 +7,8 @@ box-sizing: border-box;
 body {
     border: 2px solid black;
     padding: 5px;
-    margin: 10px 350px 10px;
+    margin: 10px auto;
+    width: 772px;
 }
 
 .gray {
@@ -16,6 +17,10 @@ body {
     position: relative;
     width: 250px;
     height: 300px;
+}
+
+.gray:hover .heart {
+    display: block;
 }
 
 .green {
@@ -44,4 +49,13 @@ img {
     position: absolute;
     top: 25px;
     left: 20px;
+}
+
+.heart {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 280px;
+    left: 125px;
+    display: none;
 }
